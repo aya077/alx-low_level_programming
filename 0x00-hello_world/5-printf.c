@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - Entry Point
+ * main - Prints the phrase
  *
  * Return Always 0
  */
