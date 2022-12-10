@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	int ch = "a";
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 	
-	while (ch <= "z")
+	for (i = 0; i <= 26; i++)
 	{
-		putchar(ch);
-		ch++;
+		putchar(alp[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
