@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main -Entry Point
  *
@@ -11,8 +12,7 @@ int main(void)
 
 	for (c = 0; c < 26; c++)
 	{
-		putchar(alp[c]);
-		c--;
+		putchar(strrev(alp[c]));
 	}
 	putchar('\n');
 	return (0);
