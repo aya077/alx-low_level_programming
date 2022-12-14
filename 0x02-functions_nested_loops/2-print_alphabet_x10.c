@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet_x10.c - make alphabet x10 times
+ * main - Entry Point
+ * print_alphabet_x10.c - Make alphabet x10 times
  *
  * Return: avoid
  */
@@ -16,5 +17,6 @@ void print_alphabet_x10(void)
 	_putchar(c);
 	}
 	_putchar('\n');
+	i++;
 	}
 }
